@@ -281,7 +281,7 @@ with col1:
 with col2:
     st.link_button(
         "📊 Ver Dashboard",
-        "http://localhost:8502"
+        "https://estructura-kyljsyag88cneuncfnuobp.streamlit.app/"
     )
 
 # ✅ Checkbox + "pestaña" (botón) que despliega el Marco Mental
