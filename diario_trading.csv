@@ -1,0 +1,126 @@
+fecha,session_id,timestamp_guardado,noticia_1,noticia_2,noticia_3,tono_mercado,impacto_volatilidad,spy_calls_nivel,spy_puts_nivel,spy_premarket,spy_zona_ruido,qqq_calls_nivel,qqq_puts_nivel,qqq_momentum,slv_calls_nivel,slv_objetivo,slv_stop,slv_puts_nivel,slv_nota,capital_total,max_riesgo_trade,max_monto_trade,regla_oro,emociones,comentario_emocional,activo,tipo_trade,direccion,contexto_intradia,entrada,stop,target,invalidacion,regla_tiempo,timeframe,estado_emocional,checklist_ok,checklist_intradia_ok,checklist_diario_ok,checklist_sesion_ok,macro_mode,macro_rule,macro_es,macro_vix,macro_dxy,macro_high_impact_news,macro_es_src,macro_vix_src,macro_dxy_src,fondo_inversion,limite_riesgo_diario,limite_riesgo_trade,contratos,prima_entrada,prima_stop,costo_entrada_usd,riesgo_usd,acepto_perder_financiero,position_size,setup_clasificacion
+2025-12-05,,2025-12-05T13:00:47.494574,Reprote PCE price index,,,Neutro / indeciso,Alta,685.50 / 684,681.50 / 680.20,alcista,682 -684,,,,52.80 / 53.10,54.0,51.9,52.2,,2000.0,29.0,119.0,"Solo operar si se cumple el plan, NO sobreoperar, Tomar ganancias en 20–30%, Cortar pérdida sin dudar","Enfocado, Impaciente","Dormi bien, pero las cosas no se estan dando tan rapido como espero",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-12-14 16:58,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Intraday (solo sesión actual),Call / Long,"Trade válido solo durante la sesión actual, basado en estructura del día
+(VWAP + High/Low del día).",56.3,56.06,57.0,"SLV cierra una vela de 5m debajo de VWAP con volumen, o
+
+pierde 56.05 y no lo recupera en 2 velas de 5m",Si el impulso no aparece en 3–4 velas → salgo,5m,🟢 Calmo y enfocado,True,True,,,,,,,,,,,,,,,,,,,,,,
+2025-12-14 19:40,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Swing,Call / Long,"Trade swing basado en estructura mayor, no en movimiento intradía.
+Se ignoran mechas y ruido intradía.",56.3,55.7,57.0,SLV CIERRA el día por debajo de 55.70,,1D,🟢 Calmo y enfocado,True,True,,,,,,,,,,,,,,,,,,,,,,
+2025-12-14 19:42,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Swing,Call / Long,"Trade swing basado en estructura mayor, no en movimiento intradía.
+Se ignoran mechas y ruido intradía.",56.3,55.7,57.0,SLV CIERRA el día por debajo de 55.70,,1h,🟢 Calmo y enfocado,True,True,,,,,,,,,,,,,,,,,,,,,,
+2025-12-16 09:25,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Intraday (solo sesión actual),Call / Long,"Activo fuerte el día previo.
+Pullback técnico durante premarket / apertura hacia VWAP sin ruptura estructural.
+Sesgo defensivo del mercado favorece metales.",57.75,57.5,58.5,"Se producen 2 cierres consecutivos 5m debajo de 57.50
+
+O pierde VWAP sin recuperación (2 cierres bajo VWAP)",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,,,,,,,,,,,,,,,,,,,,
+2025-12-17 09:31,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Intraday (solo sesión actual),Call / Long,"Trade válido solo hoy, basado en continuación fuerte + pullback a VWAP tras gap alcista con volumen.
+SLV abre con gap alcista (+3%+) y volumen alto.
+Busco pullback ordenado hacia VWAP, con mechas abajo y cierres arriba, para continuación del movimiento.
+Equities débiles → flujo defensivo favorece metales.",58.9,56.9,61.0,"2 cierres consecutivos 5m debajo de VWAP
+
+2 cierres 5m debajo de 56.90
+
+Rechazo fuerte en VWAP con volumen vendedor",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,,,,,,,,,,,,,,,,,,,,
+2025-12-18 10:40,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Intraday (solo sesión actual),Put / Short,"SLV viene de expansión fuerte el día previo, pero hoy muestra ruptura de estructura intradía tras rechazo en máximos y pérdida de VWAP.
+Precio pierde VWAP y MA20 con volumen.
+Rebote posterior es débil (lower high).
+El movimiento actual es corrección intradía, no cambio de tendencia mayor.
+Busco continuación bajista hacia soportes del día, sin intención swing.",59.8,60.2,58.5,"Recupera VWAP y la mantiene (2 cierres arriba)
+
+Rompe 60.20 con volumen
+
+Higher low + volumen comprador",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,,,,,,,,,,,,,,,,,,,,
+2025-12-18 10:53,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Swing,Call / Long,"SPY intenta cambiar de fase tras estructura bajista previa.
+El movimiento actual es reclaim técnico, no aún tendencia alcista mayor.
+Busco continuación mientras sostenga VWAP.",679.5,677.8,688.0,"Cierre horario debajo de VWAP
+Rechazo fuerte en 680
+Vela roja envolvente con volumen",,1h,🟢 Calmo y enfocado,True,True,True,True,,,,,,,,,,,,,,,,,,,,
+2025-12-19 10:31,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Swing,Call / Long,"Rebote desde zona baja (~670).
+
+Precio intenta sostenerse sobre VWAP diario / MA20 1H.
+
+Aún debajo de resistencias mayores (MA50–MA100).
+
+Condiciones (OBLIGATORIAS)
+
+Cierre 1H o diario sobre 678–679
+
+Higher low confirmado en 1H
+
+VWAP diario actuando como soporte",679.0,673.0,692.0,"Rechazo fuerte en 680 y cierre diario rojo
+
+Recupera VWAP intradía pero no lo sostiene al cierre",,1h,🟢 Calmo y enfocado,True,True,True,True,,,,,,,,,,,,,,,,,,,,
+2026-01-04 15:25,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,"SPY está en rebote técnico dentro de una estructura aún frágil, con rotación de capital y sin confirmación de tendencia.",684.0,683.0,686.0,Stop técnico: Cierre 5m < 683,Si el impulso no aparece en 3–4 velas → salgo,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Fluir con la tendencia. CALLs permitidos con gestión normal.,⬆️ (+0.12%),⬇️ (-2.94%),⬆️ (+0.16%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-05 09:17,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,"SPY está en rebote técnico dentro de una estructura aún frágil, con rotación de capital y sin confirmación de tendencia.
+Pullback a VWAP con Higher Low en 5m. Entrada solo tras vela verde de confirmación. Stop técnico cierre 5m < 683. Target 686–687. No FOMO.",684.0,683.0,687.0,Stop técnico: Cierre 5m < 683,Si el impulso no aparece en 3–4 velas → salgo,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⬆️ (+0.39%),⬆️ (+3.79%),⬆️ (+0.27%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-06 09:24,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Intraday (solo sesión actual),Call / Long,"Liderazgo claro en premarket
+
+Flujo defensivo / rotación a metales
+
+Momentum confirmado antes del open",69.9,69.5,72.0,"Cierre 5m por debajo de VWAP, o
+
+Pérdida de 69.5 y no recuperación en 2 velas",Si el impulso no aparece en 3–4 velas → salgo,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⏸️ (-0.01%),⬆️ (+0.87%),⬆️ (+0.10%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-07 08:54,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,tendencia alcista + consolidación alta (no debilidad).,690.5,688.5,694.0,"Cierre diario < 688.50
+Dos cierres consecutivos de 15m por debajo de EMA 50
+Pérdida de VWAP y no recuperación en 2 velas",Si el impulso no aparece en 3–4 velas → salgo,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⏸️ (+0.03%),⬆️ (+1.76%),⏸️ (-0.05%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-07 09:01,,,,,,,,,,,,,,,,,,,,,,,,,,SLV,Swing,Call / Long,"Activo líder del mercado
+Momentum fuerte
+Rotación clara hacia metales
+Sesgo: Alcista fuerte (A+)
+Mejor estructura que SPY
+SLV mantiene liderazgo y estructura alcista. Swing activo mientras respete 72.90–71.80. No FOMO.",72.9,71.8,74.0,"Cierre diario < 71.80
+O pérdida de 72.90 + no recuperación en 2 velas
+Ruptura clara de la estructura de higher lows",,1D,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⏸️ (+0.02%),⬆️ (+1.49%),⏸️ (-0.05%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-08 09:13,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,Neutral / Pullback técnico,689.6,687.9,691.0,Bullish invalidado: pérdida clara y aceptación < 686.80,Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⏸️ (-0.09%),⬆️ (+2.15%),⬆️ (+0.19%),no,ES=F,^VIX,DX-Y.NYB,,,,,,,,,,,
+2026-01-09 10:30,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,"El reporte de empleo muestra estabilización del mercado laboral, reduciendo temores de recesión inmediata. El premarket reacciona de forma positiva, con SPY abriendo sobre resistencias clave y metales rebotando por short covering. Contexto general: neutral a ligeramente bullish, sin señal de pánico.",691.0,690.5,693.0,Pierde 690.50 con volumen,Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⬆️ (+0.24%),⬇️ (-1.94%),⬆️ (+0.33%),no,ES=F,^VIX,DX-Y.NYB,635.0,40.0,30.0,1.0,1.18,0.89,118.0,29.0,True,,
+2026-01-09 11:04,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Swing,Call / Long,"Ruptura limpia del rango
+Higher low + expansión
+Vela verde amplia → impulso real
+VWAP recuperado y respetado",692.5,691.0,694.0,Si el 15m cierra por debajo de 691.00 → NO SWING,,1D,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⬆️ (+0.33%),⬇️ (-1.81%),⬆️ (+0.17%),no,ES=F,^VIX,DX-Y.NYB,635.0,40.0,30.0,2.0,1.12,0.98,224.00000000000003,28.000000000000025,True,,
+2026-01-14 09:00,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"SPY intradía (9:30–11:00):
+Clave: VWAP 693.80, resistencia 694.20–694.60 y soporte 692.50 / 691.00. Bias bajista mientras esté bajo 694.60. Invalidación de PUT si supera 694.60 con volumen.",694.6,692.5,695.8,"Precio bajo VWAP
+Break 692.50
+Vela 5m/15m cerrando rojo",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⬇️ (-0.46%),⬆️ (+7.38%),⏸️ (-0.09%),no,ES=F,^VIX,DX-Y.NYB,918.0,60.0,30.0,2.0,0.98,0.86,196.0,24.0,True,,
+2026-01-20 08:51,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,Risk-OFF por tensión geopolítica (Greenland). Gap bajista en índices con volumen. Flujos hacia refugios (plata/oro). Volatilidad elevada esperada en apertura.,682.9,684.0,678.0,cierre 1-min encima de VWAP.  Recupera VWAP + high premarket.  Velas verdes con volumen > rojas,Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Sesgo favorable. CALLs permitidos con gestión normal.,⬇️ (-1.53%),⬆️ (+24.91%),⬇️ (-1.00%),no,ES=F,^VIX,DX-Y.NYB,885.0,50.0,35.0,2.0,1.22,1.05,244.0,33.999999999999986,True,,
+2026-01-21 09:19,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Día post-selloff (−2% previo).
+Premarket débil / sin recuperación real.
+VIX en expansión → entorno defensivo.
+Sesgo: continuación bajista o rebotes fallidos.",678.0,680.0,674.0,"Cierre 5m arriba de VWAP, o
+Ruptura del High del retesteo y no vuelve a bajar en 2 velas de 5m.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Flujos pro-riesgo alineados.,⬆️ (+0.14%),⬇️ (-0.55%),⬇️ (-0.13%),no,ES=F,^VIX,DX-Y.NYB,940.0,60.0,60.0,2.0,1.25,1.0,250.0,50.0,True,,
+2026-01-22 09:37,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Rebote técnico post sell-off,  Premarket verde, Noticia ya descontada, Buscamos fade del rebote",690.0,690.8,687.0,"Rompe high del premarket, Se mantiene sobre VWAP 5–10 min, Velas verdes amplias + volumen",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Flujos pro-riesgo alineados.,⬆️ (+0.65%),⬇️ (-5.86%),⬇️ (-0.15%),no,ES=F,^VIX,DX-Y.NYB,985.0,85.0,25.0,2.0,1.55,1.45,310.0,20.000000000000018,True,,
+2026-01-26 10:42,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Tech enfriándose
+
+Flujo defensivo (oro/plata fuertes)
+
+SPY sin momentum limpio
+👉 Sesgo base: PUTS (fade / rechazo)",692.0,692.5,690.0,"PUT invalidado si sostiene VWAP y se sostiene 2 velas 5m arriba
+Nuevo high del día con volumen.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Flujos pro-riesgo alineados.,⬆️ (+0.50%),⬇️ (-0.75%),⬇️ (-0.63%),no,ES=F,^VIX,DX-Y.NYB,856.0,320.0,90.0,2.0,1.55,1.2,310.0,70.00000000000001,True,,
+2026-01-27 09:29,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Premarket alcista débil, rotación defensiva, probabilidad de fade",694.0,695.0,693.2,Aceptación clara sobre 695 con VWAP como soporte.,Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟢 Risk-On,Flujos pro-riesgo alineados.,⬆️ (+0.19%),⬇️ (-0.31%),⬇️ (-0.44%),no,ES=F,^VIX,DX-Y.NYB,856.0,65.0,60.0,2.0,1.55,1.3,310.0,50.0,True,,
+2026-02-02 08:57,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Sesgo principal: RANGO con sesgo bajista ⚠️(Se mueve entre un techo y un piso, rebotando una y otra vez.), Incertidumbre por política monetaria continúa",691.0,693.0,685.0,"Cierre 5m sólido sobre 693.0
+Aceptación clara arriba de VWAP","9:35 – 10:15 ET Si no se activa aquí, se cancela el Setup A.",5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⬇️ (-0.25%),⬆️ (+0.77%),⬆️ (+0.44%),no,ES=F,^VIX,DX-Y.NYB,135.0,25.0,25.0,1.0,0.6,0.3599999999999999,60.0,24.000000000000004,True,,
+2026-02-04 09:26,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,Rango con sesgo bajista leve,691.0,693.0,688.0,"Reclaim de VWAP con cierre 5m arriba, o
+Rompe el high del retesteo y no vuelve a bajar en 2 velas.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⏸️ (+0.05%),⬆️ (+0.50%),⬆️ (+0.13%),no,ES=F,^VIX,DX-Y.NYB,85.0,40.0,25.0,1.0,0.4,0.25,40.0,15.000000000000002,True,,B
+2026-02-04 09:28,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,Rango con sesgo bajista leve,691.5,693.0,688.0,"Reclaim de VWAP con cierre 5m arriba, o
+Rompe el high del retesteo y no vuelve a bajar en 2 velas.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⏸️ (+0.03%),⬆️ (+0.22%),⏸️ (+0.09%),no,ES=F,^VIX,DX-Y.NYB,85.0,40.0,25.0,1.0,0.4,0.25,40.0,15.000000000000002,True,,B
+2026-02-04 09:33,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,Rango con sesgo bajista leve,690.5,693.0,688.0,"Reclaim de VWAP con cierre 5m arriba, o
+Rompe el high del retesteo y no vuelve a bajar en 2 velas.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⏸️ (+0.04%),⬆️ (+0.44%),⏸️ (+0.09%),no,ES=F,^VIX,DX-Y.NYB,85.0,40.0,25.0,1.0,0.4,0.25,40.0,15.000000000000002,True,,B
+2026-02-04 09:34,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,Rango con sesgo bajista leve,689.4,693.0,688.0,"Reclaim de VWAP con cierre 5m arriba, o
+Rompe el high del retesteo y no vuelve a bajar en 2 velas.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⏸️ (+0.04%),⬆️ (+0.44%),⏸️ (+0.09%),no,ES=F,^VIX,DX-Y.NYB,85.0,40.0,25.0,1.0,0.4,0.25,40.0,15.000000000000002,True,,B
+2026-02-17 10:11,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Futures rojos,  Tech débil, Rotación hacia sectores defensivos o cíclicos tradicionales, SPY en premarket bajista.",679.0,680.0,677.0,"Recupera VWAP con fuerza
+Rompe último LH",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,VIX en expansión → mercado inestable → SOLO A+.,⬇️ (-0.72%),⬆️ (+8.54%),⬆️ (+0.53%),no,ES=F,^VIX,DX-Y.NYB,113000.0,7500.0,2500.0,50.0,1.5,1.0,7500.0,2500.0,True,,A
+2026-02-18 10:14,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,"👉 Breakout
+👉 Liquidez arriba
+👉 Pullback técnico
+
+Mientras no pierda:
+
+684.00 – 683.90
+
+La estructura sigue siendo alcista.",685.0,683.46,687.0,Pierde 683.90 con volumen,Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,Condiciones no claras → proteger capital.,⬆️ (+0.52%),⬇️ (-2.76%),⬆️ (+0.32%),no,ES=F,^VIX,DX-Y.NYB,101786.0,6000.0,1500.0,50.0,1.31,1.02,6550.0,1450.0000000000002,True,,A
+2026-02-19 10:12,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Call / Long,"Mercado extendido
+✔️ Toma de ganancias
+✔️ Debate sobre liderazgo (software)
+✔️ Retail vs institucional
+Eso es típico de mercado en transición, no de crash.",684.0,683.8,686.0,"Debajo de la vela de entrada 683.60, Cierre 5m debajo de VWAP 684.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,VIX en expansión → mercado inestable → SOLO A+.,⬇️ (-0.20%),⬆️ (+3.98%),⬆️ (+0.32%),no,ES=F,^VIX,DX-Y.NYB,104500.0,13500.0,13000.0,100.0,1.3,1.0,13000.0,3000.0000000000005,True,,A
+2026-02-20 09:25,,,,,,,,,,,,,,,,,,,,,,,,,,SPY,Intraday (solo sesión actual),Put / Short,"Venta sostenida, volumen creciente, precio debajo del cierre y presionado zona baja.",682.0,682.6,680.0,"Reclaim de VWAP con cierre 5m arriba, o
+Rompe el high del retesteo y no vuelve a bajar en 2 velas.",Si en 30–45 min no avanza hacia el target → cierro,5m,🟢 Calmo y enfocado,True,True,True,True,🟡 Neutral,VIX en expansión → mercado inestable → SOLO A+.,⬇️ (-0.36%),⬆️ (+3.21%),⏸️ (+0.01%),no,ES=F,^VIX,DX-Y.NYB,109333.0,5000.0,5400.0,40.0,1.35,1.0,5400.0,1400.0000000000005,True,,B
